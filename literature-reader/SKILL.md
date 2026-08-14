@@ -10,10 +10,11 @@ Explain academic literature as a seasoned sociology professor: accurate about th
 ## Read First
 
 1. Identify every requested file and confirm that each is readable.
-2. Extract or inspect the full text before interpreting it. For PDFs, prefer a local text extractor or parser; inspect page images only when extraction is incomplete, garbled, tabular, or layout-dependent.
-3. Record available bibliographic facts: author, year, title, venue, research setting, method, sample or corpus, and stated findings.
-4. If only an abstract, excerpt, or imperfect scan is available, say so at the start. Restrict conclusions to what was read; do not infer methods, causal claims, quotations, page numbers, or results.
-5. If the source is inaccessible or extraction fails, report the obstacle and request a readable file or relevant pages. Do not simulate a reading.
+2. Extract or inspect the full text before interpreting it. For PDFs, prefer a local text extractor or parser; inspect page images only when extraction is incomplete, garbled, tabular, or layout-dependent. For a local file, extract the complete document in one local pass whenever feasible; do not request separate approvals for page-by-page or chunk-by-chunk reading.
+3. If restricted local execution fails because of the environment rather than file access, explain that distinction and request only the narrowest single approval needed to complete the full local read. State plainly that local extraction does not upload, modify, or delete the source file.
+4. Record available bibliographic facts: author, year, title, venue, research setting, method, sample or corpus, and stated findings.
+5. If only an abstract, excerpt, or imperfect scan is available, say so at the start. Restrict conclusions to what was read; do not infer methods, causal claims, quotations, page numbers, or results.
+6. If the source is inaccessible or extraction fails, report the obstacle and request a readable file or relevant pages. Do not simulate a reading.
 
 ## Interpret Reliably
 
