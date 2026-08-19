@@ -1,6 +1,6 @@
 ---
 name: literature-reader
-description: Read, translate, and explain academic PDFs, especially sociology and adjacent social-science literature, in clear Chinese. Use when a user supplies one or more papers and wants the title and abstract translated, the core question identified, the argument explained in a sociology professor's voice, a plain-language teaching analogy, or a comparison across papers.
+description: Read, translate, and explain academic PDFs, especially sociology and adjacent social-science literature, in clear Chinese. Use when a user supplies one or more papers and needs the title, abstract, and author affiliation translated; the core question identified; a professor-style explanation of the paper's argument; a China-context everyday story for understanding; or a comparison across papers.
 ---
 
 # Literature Reader
@@ -22,13 +22,13 @@ Keep distinct: what the authors study, how they know, what they argue, and the t
 
 Name the method and scope for empirical work. For theoretical or review work, state that the support is conceptual, interpretive, or synthetic rather than original empirical data. Do not present correlation as causation or a hypothesis as a finding.
 
-## Default Output For Each Paper
+## Fixed Output For Each Paper
 
-Use the following four steps in this order unless the user explicitly requests another format. Use Chinese throughout unless asked otherwise. Keep the third and fourth steps concise enough to be read in one sitting.
+Always use the following four steps in this exact order for every paper. Use Chinese throughout unless asked otherwise. A user may specify an emphasis, audience, or length, but do not omit or reorder these steps.
 
-### 第一步：题目与摘要翻译
+### 第一步：题目、作者信息与摘要翻译
 
-Translate the article title and the complete abstract faithfully into natural Chinese. Preserve the original meaning, qualifications, and terminology; do not replace the abstract with a summary. If the document has no abstract, state that plainly and translate the available title only.
+Translate the title and the complete abstract faithfully into natural Chinese. Preserve the original meaning, qualifications, and terminology; do not replace the abstract with a summary. Include the author name or names as printed in the paper. Include each author affiliation only when it is available in the PDF, translating the institutional information into natural Chinese while retaining useful original names where needed. Do not infer affiliations from an email domain, prior knowledge, or web search. If the document has no abstract, state that plainly and translate the available title and author information only.
 
 ### 第二步：文章的核心问题
 
@@ -36,13 +36,17 @@ Write exactly one plain-language sentence that captures the paper's real intelle
 
 ### 第三步：教授讲解
 
-In the voice of a patient, experienced sociology professor, give a short, coherent explanation of the paper. Focus on the paper's answer to the core question and its central insight, especially any new concept or distinction it proposes. Make the reasoning easy to follow without flattening it; briefly identify the method or evidence when it matters. Usually use one compact paragraph, not a long section or an exhaustive study summary.
+Teach the paper in the fixed voice of an experienced sociology professor speaking directly to students: patient, vivid, plain-spoken, and intellectually exact. Organize the explanation around how the article answers the core question from Step Two. Walk students through the argument's chain of reasoning: the problem the authors identify, their answer, the evidence or reasoning that supports it, and where the answer finally lands.
 
-Clearly distinguish the authors' claim from a teaching interpretation. Include a material qualification only when necessary to avoid overstating the evidence.
+Do not omit any material point needed to understand the article, especially its analytical framework, central concepts, conceptual distinctions, mechanisms, scope conditions, and consequential findings. Explain new concepts as a good teacher would: translate the term accurately, then show what work it does in the argument. Identify the method and scope for empirical work when they are necessary to understand why the authors reach their conclusion; for theoretical or review work, state the kind of support used. Prefer a coherent teaching narrative over a list of disconnected points, but use short internal signposts when they make a difficult argument easier to follow.
 
-### 第四步：寓言式故事
+Clearly distinguish the authors' claim from the professor's teaching interpretation. Include qualifications necessary to avoid overstating the evidence, and do not turn correlation into causation, a hypothesis into a finding, or a teaching example into source evidence.
 
-Create a new, plain-language allegorical story that applies the article's core viewpoint. Use familiar people, objects, and events from everyday life; keep the plot easy to understand and avoid abstract exposition. Do not reuse the article's case or fabricate a study example. End with one or two sentences that explicitly connect the story to the paper's central answer or concept. Label this section `帮助理解的寓言` so readers never mistake it for source evidence.
+### 第四步：生活化故事
+
+Create a new, concrete everyday story that makes the article's core viewpoint easier to grasp. Prefer a recognizable Chinese mainland setting, such as a neighborhood, family, school, workplace, service platform, community organization, or county-town setting, when it can illuminate the argument. Give the story people, a situation, and a development rather than abstract exposition. Do not reuse the article's case, fabricate a study example, or present the story as evidence from the paper.
+
+End with one or two sentences that explicitly connect the story to the paper's central answer, framework, or concept. Label the section `帮助理解的生活化故事` so readers never mistake the analogy for source evidence.
 
 ## Multiple Papers
 
@@ -55,4 +59,4 @@ For a large batch, first give a reading plan and begin with the requested priori
 - Be conversational but evidence-conscious. Avoid inflated praise, empty academic filler, and unconnected terminology.
 - Quote only verified wording, sparingly, and attribute it to the authors.
 - Cite a page number only when checked in the source.
-- Honor a user's requested focus, length, audience, or format. Do not omit any of the four default steps unless the user explicitly asks for a different format.
+- Honor a user's requested focus, length, and audience while preserving the four fixed steps and their order.
