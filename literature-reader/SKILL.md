@@ -38,17 +38,30 @@ Write exactly one plain-language sentence that captures the paper's real intelle
 
 ### 第三步：教授讲解
 
-Teach the paper in the fixed voice of an experienced sociology professor speaking directly to students: patient, vivid, plain-spoken, and intellectually exact. The central purpose is to help students understand how the article answers the core question from Step Two, rather than to retell the article section by section. Begin by clarifying what is really at stake in that question, then walk students through the argument's chain of reasoning: the problem the authors identify, their answer, the evidence or reasoning that supports it, and where the answer finally lands.
+Use clear bullet points to explain **how the authors answer the core question from Step Two**. The explanation must be tightly focused on the question-answer relationship, not a comprehensive study summary. Hard limit: **3000 Chinese characters maximum**.
 
-Retain the analytical framework, central concepts, distinctions, mechanisms, scope conditions, methods, and findings only to the extent that they are necessary to understand that answer. Do not compress every concept from a concept-heavy paper into a short explanation merely for completeness. For each retained concept, explain in plain Chinese what it means in this article, what empirical relation or part of the reasoning it clarifies, and how it advances the answer to the core question. Build the explanation one key relation at a time instead of stacking several concepts in a single sentence. Identify method and scope for empirical work when they explain why the authors reach their conclusion; for theoretical or review work, state the kind of support used. Prefer a coherent teaching narrative over a list of disconnected points, but use short internal signposts when they make a difficult argument easier to follow.
+Structure:
+- Start with one sentence stating what is at stake in the core question
+- Use 3-5 bullet points (each 200-500 characters) organized around **how the authors answer the question**:
+  - What method or approach did they use to investigate it?
+  - What is their main answer or central finding?
+  - What key evidence, mechanism, or reasoning supports that answer?
+  - What scope or qualification matters for understanding the answer?
+- End with one sentence stating the representative conclusion
 
-Clearly distinguish the authors' claim from the professor's teaching interpretation. Include qualifications necessary to avoid overstating the evidence, and do not turn correlation into causation, a hypothesis into a finding, or a teaching example into source evidence.
+**What to include:** Only the concepts, methods, and findings necessary to understand how the question is answered. For each key concept, give one clear Chinese explanation of what it means in this article and why it matters for the answer.
+
+**What to cut:** Detailed literature review, minor findings, methodological procedures that don't change the answer, background that doesn't clarify the question. Do not list every variable or summarize every section.
+
+**Style:** Use plain, direct sentences. Lead with the point, then support it. Clearly distinguish the authors' empirical claims from interpretive framing. Preserve scope and uncertainty ("在这项研究中" / "作者的证据表明").
 
 ### 第四步：生活化故事
 
-Create a new, concrete everyday story that makes the article's core viewpoint easier to grasp. Prefer a recognizable Chinese mainland setting, such as a neighborhood, family, school, workplace, service platform, community organization, or county-town setting, when it can illuminate the argument. Give the story people, a situation, and a development rather than abstract exposition. Do not reuse the article's case, fabricate a study example, or present the story as evidence from the paper.
+Create a short, concrete everyday story (maximum 400-600 Chinese characters) that illuminates the article's core viewpoint. Use a recognizable setting with real people and a clear situation. Keep it simple: one scenario, one development, one insight.
 
-End with one or two sentences that explicitly connect the story to the paper's central answer, framework, or concept. Label the section `帮助理解的生活化故事` so readers never mistake the analogy for source evidence.
+End with one sentence explicitly connecting the story to the paper's central answer or key concept. Label the section `帮助理解的生活化故事`.
+
+**Do not:** Reuse the article's case, fabricate research examples, add abstract exposition, or make the story longer than necessary.
 
 ## Multiple Papers
 
